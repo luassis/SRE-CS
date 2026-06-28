@@ -1,0 +1,26 @@
+Então, boa tarde. Essa entrevista faz parte de uma pesquisa acadêmica sobre o tratamento de requisitos de segurança no desenvolvimento de software corporativo. 
+A conversa será gravada, apenas para auxiliar na transcrição e análise dos dados. Suas respostas serão tratadas de forma confidencial e nenhum participante será 
+identificado individualmente nos resultados da pesquisa. Nosso interesse é compreender sua experiência e percepção sobre o tema. Você concorda com a gravação e 
+com a utilização das informações fornecida para fins acadêmicos? Sim. Ah, então vamos começar. Fale um pouco sobre sua atuação na Embrapa. Em quais tipos de sistemas 
+ou soluções você trabalha? Bom, eu sou analista de BI. Eu atuo há 8 anos nessa área. Eu trabalho com sistemas corporativos, né, da empresa e também com alguns sistemas 
+governamentais, uns a nível estadual, outros a nível nacional. Como você se relaciona com a definição ou implementação de requisitos? Em relação à definição de requisitos, 
+eh, faço um trabalho inicial de identificação das necessidades dos usuários. Depois faço a tradução das regras de negócio e a partir de então, faço o mapeamento das fontes. 
+Aí em seguida, crio um rascunho visual, né, do dashboard ou do relatório, dependendo da demanda. Faço a validação com o usuário e estando tudo certo, inicio a implementação. 
+Já na implementação, né, a gente tem a fase da modelagem dos dados, constrói ali, o que a gente chama de ETL, né, que é um fluxo que vai ao da origem, é, pegar os dados e levar, 
+né, pra dentro da nossa ferramenta, carrega num banco, num Data Warehouse. E a partir dali, é, com os dados tratados já, a gente faz a materialização do dashboard ou do painel. 
+Como os requisitos relacionados à proteção de dados são identificados? Então, no nosso caso do BI, é, como os dados não possuem classificação geral na Embrapa, os requisitos 
+são levantados junto ao gestor do sistema. Como são definidos os níveis de acesso às informações? É da mesma forma dos requisitos. A gente conversa com o gestor e é ele quem 
+vai definir os níveis de acesso. Existem critérios para classificar informações sensíveis? Então, aqui na empresa, existe uma norma de segurança da informação, né, que serve 
+para nortear a classificação das informações, mas ainda falta as instruções normativas que classificam as informações. Então, em resumo, é, aí nós não temos esses critérios 
+ainda implementados. Como isso influencia no desenvolvimento das soluções? É, a situação acaba dificultando o desenvolvimento, uma vez que nós analistas de BI, eh, temos que 
+ficar repetidas, repetidas vezes consultando, né, as áreas de negócios sobre a disponibilização dos dados, quem pode ver, né, quem pode reaproveitar aqueles dados, quem pode 
+compartilhar aqueles dados lá. Existem requisitos relacionados à privacidade e proteção de dados e como eles são tratados? Então, requisitos internos eu desconheço. Eh, o que 
+a gente tem levado em consideração são os governamentais como a LGPD, né? Quais aspectos de segurança relacionados aos dados costumam ser considerados durante o desenvolvimento 
+das soluções? Então, a gente tem usado os pilares da segurança da informação, que é confidencialidade, integridade e disponibilidade e também a gente considera a autenticidade 
+e o não repúdio. Em uma escala de 1 a 10, como você avalia o tratamento de requisitos de segurança no contexto de desenvolvimento de software? Então, eu avalio com uma nota 
+seis porque ainda falta as instruções normativas para serem implementadas, né? Eh, dentro da, da organização. E também, ah, é, é isso aí. O que mais dificulta a consideração 
+de requisitos de segurança nos projetos? Uma pausa. Ah, então, é a falta das, das instruções normativas, né? Eh, classificando os dados que ela seria a ferramenta que iria 
+nos orientar nessa, nessa questão. Como os prazos e demandas de negócio afetam esse trabalho? Então, eh, a urgência, a falta de clareza, né, processos indefinidos, eles 
+acabam forçando a não observância dos requisitos de segurança, né? Uma vez que eles só, eh, prezam pela entrega final do produto. Se você pudesse implementar uma única 
+melhoria relacionada aos requisitos de segurança, qual seria? Então, no nosso caso de BI seria a classificação dos dados referente à confidencialidade. Existe algum aspecto 
+importante que não discutimos e que você considera relevante? É, a criação, né, de uma equipe de segurança da informação dentro da própria TI.

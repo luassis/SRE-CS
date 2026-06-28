@@ -1,0 +1,53 @@
+ Boa tarde! Esta entrevista faz parte de uma pesquisa acadêmica sobre o tratamento de requisitos  de segurança no desenvolvimento de software corporativo. A conversa será gravada apenas  para auxiliar na transcrição e análise dos dados. Suas respostas serão tratadas de  forma confidencial e nenhum participante será identificado individualmente nos resultados  da pesquisa. Nosso interesse é compreender a sua experiência e percepção sobre o tema..
+ Você concorda com a gravação e com a utilização das informações fornecidas para fins acadêmicos?  Sim..
+ Então vamos iniciar. Fale um pouco sobre a sua atuação na Embrapa. Em quais tipos de  sistemas ou soluções que você trabalha?  Bem, o trabalho na equipe Web, né?  Trabalho com uma plataforma LifeRy e desenvolvo dentro dessa plataforma,  com arquitetura Java, né? Modular utilizando framework OSGI..
+ Muito bem. Como você se relaciona com a definição ou implementação de requisitos?  Bem, eu, assim, geralmente eu sou chamado em reunião quando tem alguma coisa, alguma  coisa nova, né, só pra tentar ajudar de alguma maneira técnica com relação ao entendimento  da plataforma, se for necessário..
+ Mas a solicitação dos requisitos o próprio gestor passa..
+ Certo..
+ E como que esses requisitos, como que os requisitos de segurança chegam até você?  Bem, a gente usa muito o que a plataforma já oferece como parte de segurança..
+ Então ela tem os usuários, os grupos de usuários, tem os papéis definidos e isso pode ser configurado  colocando os usuários nos grupos, os papéis relacionados a esses grupos também..
+ Então a gente utiliza muito a plataforma para a parte de segurança..
+ E na existência de outros tipos de requisitos que não são esses já configurados na plataforma,  eles costumam estar claramente definidos?  É, assim, costumam com um aspecto de negócio, né, tem algumas coisas que fogem um pouco do  controle da plataforma por conta de algumas regras de negócios em si, tipo notícias, né,  tem notícias de intranet de várias unidades da EMRAP, então algumas notícias, elas não  por outras unidades. Então tem alguns requisitos de segurança,  dessas visualização e de poder ter acesso em si..
+ Então a gente tenta, por meio da plataforma, tentar fechar esses acessos..
+ Mas tem formas de você, que é aspecto de negócio,  de você transformar uma notícia de uma unidade incorporativa..
+ Então, todo mundo tem que ver..
+ Então, é bem no negócio mesmo, na programação,  e foge um pouco desse negócio de usuário,  o grupo de usuário e papel..
+ Certo..
+ Existem orientações, padrões ou recursos que auxiliam  na implementação dos requisitos de segurança?  Tem, assim, muito entendimento da plataforma em si,  como ela trabalha..
+ a gente teve uma migração agora, então a gente está patinando um pouco nisso, inclusive,  porque tem um caso específico que a gente tem, Newsletter, que são enviados para os funcionários,  mas dentro da plataforma, essas são notícias que elas estão fechadas para o público externo..
+ Então a pessoa, quando recebe e-mail, ela tem a foto da notícia lá,  só que a gente está enfrentando um problema agora, que a foto está fechada,  porque ela é de uma notícia interna e ela não permite o acesso para que no e-mail veja a notícia,  a foto da notícia em si..
+ Então, às vezes, mudou um pouco o esquema de segurança, que vem de pastas, sub-pastas,  e até chegar ao arquivo, cada componente tem sua segurança e está bem grano lá..
+ Então, até o entendimento disso está afetando um pouco o requisito do negócio em si, que  na outra versão não tinha..
+ Certo. A organização, ela disponibiliza mecanismos ou recursos que facilitem a implementação  de requisitos de segurança? Bem, atualmente, por conta dessa plataforma  a gente está com uma subscrição, que isso garante a gente a atualização de pets,  pets de segurança para a plataforma em si. Mas teve momento em si que a gente ficou  que foi descoberto com essas subscrições..
+ Então, o período de atualização da plataforma pode decorrer um prazo um pouco maior por  conta das customizações que a gente tem..
+ Então, isso é um problema que a gente enfrentou recentemente para atualizar a plataforma,  que a gente ficou muito descoberto da subscrição da versão anterior..
+ E para passar para a versão atual que a gente está agora,  a gente demorou um bom período de tempo nisso..
+ Tá certo..
+ E como que a equipe verifica se os requisitos  foram de segurança, eles foram corretamente implementados?  Isso é no testando mesmo, o teste de caixa preta, a maioria, o gestor,  quando a gente tem uma empresa terceirizada para fazer essa migração, foi uma verificação  meio perigoso, mas não dava para verificar tudo, era um volume muito grande de códigos,  Então fazia um pouco por..
+..
+..
+ Por..
+..
+. por a mostragem mesmo, né?  Eu pegava um código, dava uma olhada por alto,  vê se tava..
+..
+. como que tava a parte de implementação,  por conhecer um pouco da regra de negócio em si..
+ Mas muitos erros de segurança passaram nessa migração  por conta que a gente não tem..
+..
+..
+ Não tinha um processo de validação  para ver se o que foi implementado estava correto..
+ A gente tinha um período até um pouco pelo contrato em si de homologar..
+ Então tem aquele período que você tem que implantar e testar e validar, retornar isso  para a empresa, no período de homologação, era relativamente pequeno para o volume de  código que eles até entregavam, entendeu?  Pelo tamanho da equipe..
+ Certo..
+ Em uma escala de um a dez, como você avalia o tratamento dos requisitos de segurança  no contexto do desenvolvimento de software?  E por quê?  A daria um sete, assim, por conta que eu tenho um apoio dessa plataforma no quesito de ter um framework definido de desenvolvimento, entendeu?  E já tem API que cuida disso para mim..
+ Mas o que impacta um pouco é o período que eu tenho para absorver esse conhecimento..
+ que é relativamente pequeno em relação ao volume de trabalho e ao tamanho da equipe..
+ Atualmente só eu estou desenvolvendo para a nossa equipe, do portal que atende praticamente  todas as unidades em grávida..
+ Se você pudesse implementar uma única melhoria relacionada aos requisitos de segurança, qual seria?  Melhor guia..
+ Principalmente em relação ao processo..
+ O que você vê assim de falha no processo que poderia mudar  para melhorar essa questão do tratamento de requisitos de segurança?  Isso é um pouco complicado, porque a gente, passando agora por um período de migração,  a gente está com backlog muito grande de erros, né? E tem, e já foi identificado um problema  de utilização dessas APIs de segurança que foi implementada de forma equivocada, né?  e que a gente teve que fazer uma espécie de solução de contorno para passar,  para parar de dar erro de falta de acesso..
+ Que a plataforma estava fechada e a gente precisava ter acesso e a gente teve que fazer  uma solução de contorno para abrir inclusive..
+ Então, essa solução de contorno a gente ainda tem que remover ela e fazer a implementação  de forma correta aderente para a plataforma..
+ E existe algum aspecto importante que não discutimos e que você considera relevante  em relação a tratamento de requisitos de segurança?  A gente pura a gente ter esse respaldo da plataforma em ser um  um framework, uma plataforma que a gente tem em subscrição, a gente tem até  é coberto por atualização de PET, PET segurança, que algumas coisas que a gente  não..
+..
+. a gente é informado, né? A gente não vai atrás do que está em voga, de  de ataques e esse tipo de situação, então a gente recebe esse suporte da empresa com  relação a isso, então a gente está coberto, assim, na teoria por uma subscrição do  aferramento que a gente tem, que usa como plataforma..
+ Muito bom. Obrigada pela sua participação.

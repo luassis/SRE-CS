@@ -1,0 +1,38 @@
+ Olá, boa tarde. Essa entrevista faz parte de uma pesquisa acadêmica sobre o tratamento  de requisitos de segurança no desenvolvimento de software corporativo. A conversa será  gravada apenas para auxiliar na transcrição e análise dos dados. Suas respostas serão  tratadas de forma confidencial e nenhum participante será identificado individualmente nos resultados  da pesquisa. Nosso interesse é compreender suas experiências e percepção sobre o tema..
+ E se concorda..
+ com a gravação e com a utilização das informações fornecidas para fins acadêmicos?  Sim..
+ Vamos começar..
+ Vale um pouco sobre sua atuação na Ibrapa..
+ Em quais tipos de sistemas ou soluções você trabalha?  Eu trabalho na equipe de desenvolvimento de sistemas corporativos..
+ Nós temos demandas que são atendidas pela fábrica de software ou pela equipe interna  de desenvolvimento..
+ A minha atuação é mais no desenvolvimento interno das soluções..
+ Como você se relaciona com a definição ou implementação dos requisitos?  Realizo atividades de gerenciamento do produto de software, levantamento e especificação  de requisitos e também implemento funcionalidades nos sistemas..
+ Nós adotamos metodologias ágeis de desenvolvimento e o atendimento das demandas é planejado  por sprint de aproximadamente um mês de duração..
+ No início da Sprint nos reunimos com os gestores para fazermos o planejamento das demandas..
+ Ela é planejada conforme as priorizações estabelecidas pelas áreas de negócio e também  nós consideramos incluir as demandas cujo prazo seja compatível com a duração da  Sprint..
+ Eu também atuo na etapa de levantamento e especificação de requisitos..
+ Se a demanda for de construção de um novo módulo ou nova funcionalidade, nós usamos  um documento de especificação para descrever todo comportamento e regras do negócio..
+ Se for uma demanda de manutenção em funcionalidade já existente, os gestores das áreas especificam  suas necessidades por meio de histórias de usuário e complemento com informações  mais técnicas quando necessário..
+ Como requisitos de segurança são identificados durante o levantamento?  Para especificar uma nova funcionalidade no sistema, procuramos identificar alguns requisitos  de segurança, por exemplo, controle de acesso a funcionalidades, permissões de leitura  ou escrita por perfil, restrições de domínio, validações de entrada de dados..
+ Quando estamos desenvolvendo uma nova funcionalidade, todo esse tratamento é descrito no artefato  de especificação..
+ E quando estamos realizando manutenção e funcionalidade já existente, se houver a necessidade  de realizar algum tratamento específico de segurança, essa necessidade é incluída  na história de usuário..
+ Quem normalmente traz essas necessidades?  Elas surgem dos usuários, da equipe técnica, de nomas organizacionais?  Quando tratamos de necessidades de segurança que o próprio processo de negócio exige,  definições são feitas em conjunto com as áreas de negócio e a equipe técnica..
+ Como os aspectos, como segregação de funções e aprovações são tratados?  Em alguns processos organizacionais temos essa questão de segregação de  funções e aprovações em fluxos de trabalho bem definidas. Como esses  requisitos são visíveis no processo de negócio, eles são identificados e  tratados desde as fases iniciais de levantamento..
+ No entanto, os requisitos de segurança, que não são explícitos no fluxo de trabalho  e também são importantes, muitas vezes não são tratados na fase de levantamento  de requisitos e podem surgir em etapas posteriores durante a implementação ou operação do  sistema..
+ Como são identificados restrições relacionadas ao negócio?  Geralmente esses requisitos são apresentados pelos gestores de negócio..
+ Eles explicam essas restrições e nós da equipe técnica procuramos compreendê-los e materializá-los na forma de requisitos..
+ Existem requisitos relacionados à conformidade processual?  Sim. Alguns deles surgem desde as fases de levantamento de requisitos,  quando são visíveis pelos representantes das áreas de negócio,  e outros surgem em fases posteriores, como, por exemplo,  para atender alguma necessidade que surgiu durante a operação do sistema  ou para atender alguma recomendação de auditoria..
+ Como essas necessidades são documentadas?  Elas podem ser documentadas em especificações de funcionalidades ou histórias de usuário..
+ Quando um processo de negócio muda,  Como vocês avaliam os impactos na segurança?  Quando a mudança está relacionada a algum requisito de segurança,  ela é tratada de forma explícita na demanda..
+ Mas nem sempre as demandas são atendidas com essa avaliação de impacto..
+ Em uma escala de 0 a 10,  como você avalia o tratamento de requisitos de segurança na organização?  Por quê?  Bem, fazendo uma reflexão de autocrídica,  Acho que podemos melhorar em vários aspectos..
+ Então, eu não daria uma nota muito alta, talvez uma nota 5 ou 6..
+ Percebo que temos alguns controles de segurança implementados nos nossos sistemas,  mas sinto falta de um processo um pouco mais explícito para tratarmos esses requisitos de forma sistematizada..
+ O que mais dificulta a consideração de requisitos de segurança nos projetos?  Acredito que os requisitos de segurança que são visíveis nos processos de negócio  são considerados, mas existem outros requisitos de segurança importantes  que podem ser negligenciados por vários fatores..
+ Falta de conhecimento especializado da equipe, pressão por prazos  ou falta de um processo explícito para o tratamento dos requisitos de segurança..
+ Como os prazos e demandas de negócio afetam esse trabalho?  Na maioria das vezes, os prazos de atendimento das demandas são estabelecidos com base nos  requisitos que foram levantados..
+ Se não houver requisitos de segurança explícitos desde as fases iniciais, as chances dele  serem negligenciados em fases posteriores aumentam..
+ Bye..
+ Se você pudesse implementar uma única melhoria relacionada ao requisito de segurança, qual  seria?  Eu tornaria o tratamento desses requisitos com um grau de importância maior do que praticamos  atualmente..
+ E para finalizar, existem algum aspecto importante que não discutimos e que você  considera relevante?  Não, acredito que discutimos os principais pontos..
+ recordo de nenhum outro aspecto.

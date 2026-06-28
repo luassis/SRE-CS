@@ -1,0 +1,21 @@
+ Esta entrevista faz parte de uma pesquisa acadêmica sobre o tratamento de requisitos de segurança  no desenvolvimento de software corporativo. A conversa será gravada apenas para auxiliar na  transcrição e análise dos dados. Suas respostas serão tratadas de forma confidencial e nenhum  participante será identificado individualmente nos resultados da pesquisa. Nosso interesse é  entender a sua experiência e percepção sobre o tema. Você concorda com a gravação  e com a utilização das informações fornecidas para fins acadêmicos?  See..
+ Fala um pouco sobre a sua atuação na Embrapa, em quais tipos de sistemas ou soluções que  você trabalha..
+ Minha atuação no Embrapa é com desenvolvimento de software e trabalho com sistemas corporativos  de aplicações para a área-meio..
+ Como você se relaciona com a definição ou implementação de requisitos?  Bom, eu trabalho com um levantamento de requisitos e também com a implementação..
+ A equipe é pequena, então a gente tem que fazer os dois papéis..
+ Bye..
+ Como os requisitos de segurança chegam até você?  implementar isso no sistema. Cada sistema  implementa sua restrição de acesso a dados..
+ a usula de, por exemplo, você dá unidade A, dá unidade B, tem pessoas de unidades  diferentes que têm que ter um acesso a informações diferentes e não pode ver um do outro..
+ Então, isso a gente faz no momento de conversa com o usuário, antes de implementar..
+ Quando surge uma dúvida sobre como implementar um requisito de segurança, onde você busca  orientação?  de alguma dúvida sobre como implementar um requisito de segurança?  Onde que você busca orientação, já que não existem padrões específicos na sua área?  Hoje eu também sou carente dessa informação..
+ Não há um modelo, não há um padrão definido..
+ A gente não sabe a quem a gente vai buscar, a um conselho, uma informação para poder  implementar nos sistemas..
+ Os requisitos de segurança costumam ser descritos de forma clara e suficiente para orientar  a implementação..
+ Você poderia citar algum exemplo?  apenas os requisitos que são relativos a acesso a dados, ou seja, ao negócio..
+ Apenas isso..
+ Como a equipe verifica se os requisitos de segurança foram corretamente implementados?  Isso é feito apenas com um teste funcional..
+ Hoje a gente não tem nenhuma automatização, nenhuma ferramenta que auxiliem nesse teste de segurança..
+ É junto com o usuário, com o gestor do sistema..
+ sistema..
+ Em uma escala de um a dez, como você avalia o tratamento dos requisitos de segurança  no contexto de desenvolvimento de software e por que?  Eu acho que uma nota quatro, de zero a dez é uma nota quatro porque hoje o nosso gestor  o usuário de sistema não está preocupado em definir esses requisitos, por ser um requisitos  não funcionais..
+ E também porque a gente não tem testes automatizados, não temos ferramentas,  A gente está preocupado em atender usuários as regras de negócio com uma pequena, vamos  dizer

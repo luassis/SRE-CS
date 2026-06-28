@@ -1,0 +1,79 @@
+Bom dia. Agradecemos sua participação. Essa entrevista faz parte de uma pesquisa
+acadêmica sobre o tratamento de requisitos de segurança no desenvolvimento de software
+corporativo. Essa conversa será gravada apenas para auxiliar na transcrição e análise dos
+dados. Suas respostas serão tratadas de forma confidencial e nenhum participante será
+identificado individualmente. Nosso interesse é compreender sua experiência e percepção
+sobre o tema. Não existem respostas certas ou erradas. Você concorda com a gravação e
+com a utilização das informações fornecidas para fins acadêmicos? Sim. Então vamos
+iniciar. Fale um pouco sobre a sua atuação na Embrapa. Então, eu atuo no suporte à gestão
+do ERP, o ERP que a gente usa é da SAP. É um sistema corporativo. Eu exerço um papel
+de articulação e facilitação, que é um elo de ligação entre o usuário e a empresa contratada,
+que é responsável para dar o suporte e desenvolver, né, novas funcionalidades no RP. Ah, e
+como que você se relaciona com a definição ou implementação de requisitos? É, eu atuo
+como um filtro, assim, um validador, né? Quando o usuário reporta um problema ou solicita
+uma melhoria, a gente faz a análise inicial, se aquilo é uma falha, se é uma dúvida, é, em
+relação ao uso do sistema, ou se é um novo requisito de negócio. Se ele for esse, esse
+último caso, um novo requisito de negócio, aí a gente acompanha junto a contratada, a, de
+forma técnica, né, é, os, o levantamento de requisitos, todo o processo, até a, o requisito
+estar em produção. Ah, e como que os requisitos de segurança são identificados durante o
+levantamento? Eles são identificados por meio de uma análise de impacto, né? E a gente
+também preenche algumas matrizes de riscos. Quando o novo processo, a funcionalidade é
+desenhado, a gente acompanha junto a contratada, esse desempenho, esse
+desenvolvimento dessa funcionalidade, a gente avalia, avalia quem pode ver junto com a
+área gestora, quem pode acessar, quem pode alterar, dentro de um processo, eh, o fluxo,
+quem pode aprovar, dentro do workflow, né? Transformando em regras, eh, em perfis de
+acesso, em fluxo de trabalho dentro da RP. E quem que normalmente traz essas
+necessidades? São os usuários, a equipe técnica ou vem de normas organizacionais? É
+uma composição, depende muito do tipo de requisito, mas na maioria é o próprio gestor do
+processo, ele traz a necessidade de segurança, né? A, exemplo, técnico pode não ver, eh,
+fulano não pode aprovar o mesmo pagamento que ele lançou e assim por diante.
+Geralmente é o gestor do processo de negócio. Certo. Agora a gente vai entrar no tema que
+é sobre segurança orientada aos processos. Como que os aspectos, eh, como aspectos
+como segurança de funções e aprovações são tratados? Geralmente eles são tratados
+pelos próprios processos que já estão estabelecidos, implementados na ferramenta, né? E,
+assim, o sistema ele já é configurado, parametrizado para que funções conflitantes, por
+exemplo, cadastrar fornecedor e emitir pagamento para ele mesmo, não fique vinculado ao
+mesmo perfil de usuário. Então, essas aprovações seguem esses fluxos hierárquicos,
+hierárquicos, que já são automatizados, e que são baseados nos processos implantados
+dentro da Embrapa. E como são identificadas restrições relacionadas ao negócio? É,
+existem requisitos relacionados à conformidade processual? Não, eles são identificados
+através do mapeamento de processo junto aos donos dos negócios, o dono de cada área. A
+gente tem hoje a frente de recursos humanos, a área financeira e a área de patrimônio.
+Então, os donos dessas áreas é que identificam esses requisitos de negócios. Eles definem
+os limites operacionais, quais regras, restrições, né, que o RP precisa validar para não
+travar o sistema. E se existem requisitos relacionados, ah, esses requisitos eles são
+documentados em especificações funcionais, né? Nós temos também o próprio contrato, o
+próprio termo de referência, manuais e procedimentos que baseiam como realizar essas
+atividades. E como que essas necessidades são documentadas? Através de artefatos.
+Quando a gente, eh, desenvolve uma nova funcionalidade, a gente gera uma série deartefatos. 
+Então, a gente tem, eh, a, os requisitos TP, o TPC, o teste processo consultor, o
+TPU, que é o teste processo de usuário. A gente tem a, a demanda inicial, né, a
+formalização da demanda. Então, é por meio desses artefatos que eles são documentados.
+E quando um processo de negócio muda, como que vocês avaliam os impactos na
+segurança? Através de análise, que é realizada antes de se desenvolver a funcionalidade
+nova, né? O gestor precisa homologar para que a gente possa colocar essa funcionalidade
+em produção. Mas você percebe que tratamentos de requisitos de segurança, eles são
+feitos nesses processos? Sim, eu percebo. A contratada ela tem evidenciado, evidenciado
+isso. Ela traz os riscos, né? Ela não traz só o tempo e o valor estimado para executar
+aquela demanda. Ela traz os riscos vinculados àquela alteração ou àquela nova
+necessidade e traz os impactos por meio da análise de impacto, em, é, em do, do impacto
+dessa funcionalidade em outros processos dentro do sistema. É, em uma escala de um a
+10, você, como que você avalia o tratamento de requisitos de segurança na organização?
+Eu daria nota oito. Por que que não é 10, né? Porque, eh, às vezes a gente esbarra nessa
+questão burocrática que é preciso, essa, esse, essa quantidade de documentação que a
+gente produz, e nos prazos de desenvolvimento. Geralmente o usuário ele tem, eh, pouco
+tempo para implementar e ver em produção a necessidade que ele identificou. Se você
+pudesse implementar uma única melhoria relacionada aos requisitos de segurança, qual
+que seria? Ah, eu acho que a gente podia ter uma, automatizar, né? Fazer uma revisão
+contínua dessa segregação de funções, né? Quem pode ver o quê? Quem de determinada
+área que executa uma parte do processo pode ver o quê? A gente pudesse ter uma
+ferramenta para automatizar isso seria muito importante, porque esse processo a gente
+também poderia auditar, né, periodicamente se o usuário tem acesso conflitante dentro do
+sistema. E existe algum aspecto importante que não discutimos aqui e que você considera
+relevante? Sim, o fator humano e a gestão de mudanças. A gente pode desenhar um
+requisito com segurança mais perfeito que tem, né? Com a contratada que a gente tem
+atualmente. Mas se o usuário final não entender o motivo daquela restrição, por exemplo,
+por que de você não poder compartilhar senhas ou por que de um processo precisar de três
+aprovações, a segurança falha na ponta. Então, o treinamento contínuo, a conscientização
+dos usuários sobre segurança são tão importantes quanto o próprio código do sistema. Ah,
+muito bom. E a gente encerra por aqui e muito obrigada pela sua participação. De nada.

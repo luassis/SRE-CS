@@ -1,0 +1,28 @@
+ Esta entrevista faz parte de uma pesquisa acadêmica sobre o tratamento de requisitos  de segurança no desenvolvimento de software corporativo..
+ A conversa será gravada apenas para auxiliar na transcrição e análise dos dados..
+ Suas respostas serão tratadas de forma confidencial e nenhum participante será identificado individualmente  nos resultados da pesquisa..
+ O nosso interesse é compreender a sua experiência e percepção sobre o tema..
+ Você concorda com a gravação e com a utilização das informações  fornecidas para fins acadêmicos?  Sim..
+ Então vamos começar..
+ Fale um pouco sobre a sua atuação na Embrapa e quais tipos de sistemas ou soluções  que você trabalha..
+ Olá, eu atuo como analista de business intelligence, 15 anos e meio..
+ Na área de business intelligence, pode se dividir basicamente em  Quatro partes, ETL, que é extração, transformação e carga, data warehousing,  que é partir de um desenamento em modelo dimensional,  depois geração de comada semântica, que é o formato amigável para o negócio analítico  e por último geração de painéis e relatórios..
+ E como que você se relaciona com a definição ou implementação dos requisitos?  Nas quatro etapas citadas agora, pouco, o requisito é negociado com o usuário..
+ O usuário não é formal como um modelo de sistemas transacionais, é baseado em DOD,  que é o documento oficializador de demanda e vai sendo aprimorado com os gestores ao longo do tempo..
+ Como que os requisitos relacionados à proteção de dados são identificados?  A priori, os requisitos não seguem um modelo formal de definição, porém a equipe TBA tem uma boa  prática de gerar níveis de acesso de acordo com o nível do usuário de acesso, que é o  formal, tático e estratégico, três níveis diferentes..
+ Como são definidos os níveis de acesso às informações?  Além dos níveis diferenciados em interparecional, tático e estratégico, definimos níveis de  acesso diferentes por lotação, ainda por dados públicos os quais tem zero nível de sensibilidade..
+ E existem critérios para classificar essas informações sensíveis?  Sim, não seguimos uma metodologia formal..
+ A sensibilidade é definida pelo gestor NUDOD,  no documento oficiçador de demanda..
+ Eventualmente, a área de administração de dados,  que é o apoio fundamental da área de business intelligence,  também fornece informações sobre criticidades  não previstas no NUDOD..
+ E como isso influencia no desenvolvimento das soluções?  Informações com criticidade  exigem mais tempo de desenvolvimento..
+ Complicações de firos, exos e uso de mecanismos  de segurança e informação nas ferramentas de BI..
+ Existem requisitos relacionados à privacidade, proteção de dados e como que eles são tratados?  Conforme eu explicado anteriormente, esses requisitos não são formais, apesar que  seguimos detalhes da LGPD, Lei Geral de Proteção de Dados, que define como sensíveis a priori  dados de conteúdo pessoal..
+ Também consideram sensíveis dados de negócios mapeados pelos gestores no DOD..
+ E quais aspectos de segurança relacionados aos dados costumam ser considerados  durante o desenvolvimento das soluções?  Além dos dados sensíveis explicados anteriormente,  podem ser destacados aspectos de segurança como tentativas de ESCAL Injection,  que vemos no caso assim no passado, e também tentativas de raqueamento  das camadas de segurança da informação, a nível de usuários e grupos,  que são tratadas por gestores de log e alertas de ferramentas..
+ temos SAP e tabu no nosso caso particular..
+ Em uma escala de um a dez,  como que você avalia o tratamento dos requisitos de segurança  no contexto de desenvolvimento de software?  E por quê?  No contexto de desenvolvimento de software,  como um todo e também parada de dados,  eu daria um nota oito..
+ Para chegar na nota máxima,  seria necessário um investimento grande  em capacitação dos empregados do GTI,  a respeito de boas práticas modernas em segurança da informação..
+ O que mais dificulta a consideração de requisitos de segurança nos projetos que você atua?  Não há um empenho corporativo para segurança em áreas fora da infra e atendimento ao usuário..
+ As ações são tomadas pelas próprias equipes em momentos específicos..
+ Como que os prazos e demandas de negócio afetam esse trabalho?  A segurança da informação exige um acréscimo de 10 a 15% de atenção e tempo no desenvolvimento..
+ Se você pudesse implementar uma única melhoria relacionada aos requisitos de segurança, qual seria?  O provimento de uma melhor comunicação das equipes de infraestrutura, as quais são especialistas em segurança com a minha equipe, que é a especialista em gestão de dados, DBA, ADEI, Portrai e ZBI.
