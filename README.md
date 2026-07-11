@@ -1,5 +1,5 @@
 # SRE-CS
-Material de pesquisa utilizado no desenvolvimento do artigo "Incorporação de Requisitos de Segurança no Desenvolvimento de Sistemas Corporativos: Um Estudo de Caso na Embrapa"
+Este repositório reúne os materiais de pesquisa utilizados no desenvolvimento do artigo "Incorporação de Requisitos de Segurança no Desenvolvimento de Sistemas Corporativos: Um Estudo de Caso na Embrapa".
 
 ## Autores
 - Gleice Louise Costa dos Santos 
@@ -15,5 +15,7 @@ Este trabalho referencia o artigo "Incorporação de Requisitos de Segurança no
 ## Entrevistas
 Contém as transcrições das entrevistas realizadas com seis participantes.
 
+As transcrições foram previamente anonimizadas, preservando a confidencialidade dos participantes e removendo informações que permitam sua identificação.
+
 ## Questionário
-Contém os resultados exportados do Google Forms e gráficos utilizados na análise dos resultados
+Contém o instrumento de pesquisa, os resultados exportados do Google Forms e os gráficos utilizados na análise quantitativa apresentada no artigo.
