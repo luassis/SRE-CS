@@ -11,3 +11,9 @@ Material de pesquisa utilizado no desenvolvimento do artigo "Incorporação de R
 
 ## Contexto
 Este trabalho referencia o artigo "Incorporação de Requisitos de Segurança no Desenvolvimento de Sistemas Corporativos: Um Estudo de Caso na Embrapa" desenvolvido na disciplina "Engenharia de Software Seguro" de Pós-Graduação em Computação Aplicada da Universidade de Brasília. Trata-se de um estudo de caso realizado com o objetivo de compreender a incorporação dos requisitos de segurança ao desenvolvimento dos sistemas corporativos da Embrapa e identificar lacunas em relação às boas práticas de Engenharia de Software Seguro.
+
+## Entrevistas
+Contém as transcrições das entrevistas realizadas com seis participantes.
+
+## Questionário
+Contém os resultados exportados do Google Forms e gráficos utilizados na análise dos resultados
